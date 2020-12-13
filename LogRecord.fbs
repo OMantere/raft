@@ -1,0 +1,8 @@
+namespace schema;
+
+table LogRecord {
+  key:string;
+  value:long;
+}
+
+root_type LogRecord;
